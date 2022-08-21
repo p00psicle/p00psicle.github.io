@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	overflow-x: hidden;
+}
+h1 {
+	font-family: 'Syne Mono', monospace;
+	color: rgba(0,0,0,1.00);
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	letter-spacing: 0.5em;
+}
+.btn-lg, .btn-group-lg > .btn {
+  /* padding: 0.5rem 4rem; */
+  /* font-size: 1.25rem; */
+  letter-spacing: 0.15em;
+  line-height: 2;
+  width: 100%;
+  border-radius: 0.85rem;
+}
+linktree .linktree div {
+	margin: 0.1em;
+}
+
+footer {
+	height: 8em;
+}
+.text-red {
+  color: #FF003F !important;
+}
+.text-red:hover, .text-red:active {
+  color: #B60022 !important;
+}
